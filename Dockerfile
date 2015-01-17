@@ -1,5 +1,5 @@
 FROM sequenceiq/spark:1.2.0
-MAINTAINER smungee
+MAINTAINER Swatisoni 
 
 #RUN yum -y install numpy scipy python-matplotlib gcc gcc-c++
 
