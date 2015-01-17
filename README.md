@@ -8,14 +8,14 @@ numpy 1.9.0
 scipy 0.14.0
 scikit-learn 0.15.2
 
-Running the image
+## Running the image
 
 docker run -i -t -h sandbox sequenceiq/spark:1.2.0 bash
 or
 
 docker run -d -h sandbox sequenceiq/spark:1.2.0 -d
 
-Versions
+## Versions
 
 Hadoop 2.6.0 and Apache Spark v1.2.0
 
