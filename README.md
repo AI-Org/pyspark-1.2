@@ -11,7 +11,7 @@ scikit-learn 0.15.2
 
 ## Pull the Spark 1.2.0 container 
 
-docker pull swatisoni/pyspark-docker:1.2.0:latest
+docker pull swatisoni/pyspark-docker:1.2.0
 
 ## Running the image
 
