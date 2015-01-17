@@ -9,7 +9,10 @@ RUN yum clean all
 
 RUN curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 RUN python get-pip.py 
-RUN pip install -U numpy scipy scikit-learn
+#RUN pip install -U numpy scipy scikit-learn
+RUN pip install numpy==1.9.0
+RUN pip install scipy==0.14.0
+RUN pip install scikit-learn==0.15.2
 #RUN easy_install -U cython scikit-image
 
 # Reduce number of warning messages
